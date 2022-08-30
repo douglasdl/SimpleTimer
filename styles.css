@@ -1,0 +1,27 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 10vw;
+
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
